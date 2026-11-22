@@ -34,6 +34,6 @@ Passos da instalação:
 - Acessar o cmd ou bash de preferência
 - Acessar a pasta do projeto
 - Executar o comando `npm run login` (testes app nativo de login e formulário)
-- Executar o comando `npm run login` (testes webview)
+- Executar o comando `npm run search` (testes webview)
 - Os testes serão executados automaticamente gerando um relatório na pasta reports/html
 - Relatório serão gerados na pasta nightwatch-html-report

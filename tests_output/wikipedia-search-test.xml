@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="Wikipedia Android app test" id="wikipedia-search-test"
+    errors="1" failures="0" hostname="" package="wikipedia-search-test" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+       An error occurred while creating a new Appium Server session: [WebDriverError] The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output.
+ An error occurred while creating a new Appium Server session: [WebDriverError] The instrumentation process cannot be initialized within 30000ms timeout. Make sure the application under test does not crash and investigate the logcat output. You could also try to increase the value of &#39;uiautomator2ServerLaunchTimeout&#39; capability
+    </system-err>
+  
+
+    
+    <error message=""><![CDATA[
+      
+      ]]></error>  
+
+  
+    
+    <testcase
+      name="Pesquisar pelo artigo BrowserStack" classname="Wikipedia Android app test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+{
+  "name": "appium-automation-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "login": "npx nightwatch nightwatch/e2e/wikipedia-login-test.js --env app.android.emulator",
+    "search": "npx nightwatch nightwatch/e2e/wikipedia-search-test.js --env app.android.emulator"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nightwatch/mobile-helper": "^2.0.0",
+    "android": "^0.0.8",
+    "appium": "^4.0.0",
+    "appium-uiautomator2-driver": "^9.3.0",
+    "nightwatch": "^3.16.0"
+  }
+}

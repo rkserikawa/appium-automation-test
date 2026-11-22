@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Wikipedia Android app test" id="mobile-app-tests.wikipedia-android"
+    errors="0" failures="0" hostname="" package="mobile-app-tests" skipped="0"
+    tests="1" time="398.1" timestamp="">
+  
+    <testcase name="Search for BrowserStack" classname="Wikipedia Android app test" time="397.5" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

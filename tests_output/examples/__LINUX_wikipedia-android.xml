@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Wikipedia Android app test" id="examples.wikipedia-android"
+    errors="1" failures="0" hostname="" package="wikipedia-android" skipped="0"
+    tests="1" time="10.86" timestamp="">
+  
+    <testcase name="Search for BrowserStack" classname="Wikipedia Android app test" time="10.30" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       NoSuchElementError
+   An error occurred while running .click() command on &lt;@onboardSkipButton&gt;: Timed out while waiting for element &#34;@onboardSkipButton&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    C:\Dev\appium-automation-test\nightwatch\page-objects\onboardingPage.js:46
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     44 |     }
+     45 | };
+     46 | app.click(&#39;@onboardSkipButton&#39;); 
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
